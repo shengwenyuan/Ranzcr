@@ -1,2 +1,2 @@
 # Ranzcr
-kaggle competition
+I trained the 11 classes with 11 labels, so that the code return the inference of one class at a time. It looks normal when choose 'ETT - Normal', which give the accuracy around 0.91 after 60 epochs, however when I executed 'CVC - Borderline', my code gave no help on raising the accuracy beyond expectation number and val_acc didnt change at all.(The model returns only 0 in fact, so it might be caused by gradient vanishing??)
